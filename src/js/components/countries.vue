@@ -129,7 +129,7 @@ export default {
         this.region = result.region;
         this.subregion = result.subregion;
         this.sort = result.sort;
-        this.order_asc = this.order_asc;
+        this.order_asc = result.order_asc;
       }
     }
     this.getCountries();
